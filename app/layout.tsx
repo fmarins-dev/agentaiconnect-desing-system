@@ -32,7 +32,6 @@ export default function RootLayout({
         {children}
         {/* eslint-disable-next-line @next/next/no-before-interactive-script-outside-document */}
         <script
-          // @ts-expect-error - figma capture script injection
           dangerouslySetInnerHTML={{
             __html: `(function(){var s=document.createElement('script');s.src='https://mcp.figma.com/mcp/html-to-design/capture.js';document.head.appendChild(s);})();`,
           }}
