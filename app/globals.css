@@ -9,6 +9,20 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-sans);
   --font-mono: var(--font-geist-mono);
+  --font-manrope: var(--font-manrope);
+  --color-v2-primary: var(--v2-primary);
+  --color-v2-primary-fg: var(--v2-primary-fg);
+  --color-v2-progress: var(--v2-progress);
+  --color-v2-text-dark: var(--v2-text-dark);
+  --color-v2-text-medium: var(--v2-text-medium);
+  --color-v2-text-light: var(--v2-text-light);
+  --color-v2-bg-page: var(--v2-bg-page);
+  --color-v2-bg-surface: var(--v2-bg-surface);
+  --color-v2-border: var(--v2-border);
+  --color-v2-badge-req-bg: var(--v2-badge-req-bg);
+  --color-v2-badge-req-text: var(--v2-badge-req-text);
+  --color-v2-badge-opt-bg: var(--v2-badge-opt-bg);
+  --color-v2-badge-opt-text: var(--v2-badge-opt-text);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -48,6 +62,21 @@
 }
 
 :root {
+  /* V2 Design System */
+  --v2-primary: #334e94;
+  --v2-primary-fg: #ffffff;
+  --v2-progress: #48c9b0;
+  --v2-text-dark: #0f172a;
+  --v2-text-medium: #64748b;
+  --v2-text-light: #94a3b8;
+  --v2-bg-page: #f6f7f8;
+  --v2-bg-surface: #f1f5f9;
+  --v2-border: #e2e8f0;
+  --v2-badge-req-bg: #fef2f2;
+  --v2-badge-req-text: #ef4444;
+  --v2-badge-opt-bg: #f1f5f9;
+  --v2-badge-opt-text: #94a3b8;
+
   --background: oklch(1 0 0);
   --foreground: oklch(0.147 0.004 49.25);
   --card: oklch(1 0 0);
